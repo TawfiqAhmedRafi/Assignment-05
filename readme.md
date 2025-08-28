@@ -3,7 +3,7 @@
 
  2.How do you create and insert a new element into the DOM?
  Ans :
-  const newElement = document.createElement("p");
+  const newElement = document.createElement("p"); 
   newElement.textContent = "Hello! ";
   document.body.append(newElement); 
 

@@ -14,6 +14,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <!-- hind -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- nav -->
@@ -62,7 +66,7 @@
         <!-- cards -->
            <div class="grid grid-cols-1  md:grid-cols-3  gap-[20px] md:gap-[20px]">
             <!-- all -->
-                <div class="h-[350px] w-auto md:w-[300px] rounded-[12px] shadow-md bg-white p-[25px]">
+                <div class="card-container h-[350px] w-auto md:w-[300px] rounded-[12px] shadow-md bg-white p-[25px]">
                 <div class="flex justify-between items-center">
                 <div class="w-[60px] h-[60px] rounded-[16px] bg-[#FFE3E2] flex items-center justify-center">
                     <img src="./assets/emergency.png" alt="" class="w-[32px] h-[32px]">
@@ -72,7 +76,7 @@
                 </div>
                 </div>
                 <div class="pt-[16px]">
-                    <p  class="font-bold text-[16px] md:text-[16px]">
+                    <p  class="hind-madurai-bold text-[16px] md:text-[16px] service">
                         National Emergency Number
                     </p>
                     <p class="roboto-font text-[#5c5c5c] text-[13px] ">
@@ -80,18 +84,18 @@
                     </p>
                 </div>
                 <div class="pt-[24px]">
-                    <p  class="font-bold text-[20px] md:text-[26px] number">
+                    <p  class="roboto-font font-bold text-[20px] md:text-[26px] number">
                         999
                     </p>
                     <button class="btn rounded-2xl bg-[#f2f2f2]">All</button>
                 </div>
                 <div class="pt-[24px] flex justify-between">
-                    <button  class="btn h-[40px] w-[120px] border border-[rgba(212,214,213,1)] rounded-[8px] bg-white  text-[#5c5c5c] copy"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button  class="btn h-[40px] w-[120px] border border-[rgba(212,214,213,1)] rounded-[8px] bg-white  text-[#5c5c5c] copy copy-text"><i class="fa-regular fa-copy"></i>Copy</button>
                     <button id="all-btn" class="btn bg-[#00a63e] h-[40px] w-[120px] rounded-[8px] call"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
                 </div>
                 <!-- police -->
-                 <div class="h-[350px] w-auto md:w-[300px] rounded-[12px] shadow-md bg-white p-[25px]">
+                 <div class="card-container h-[350px] w-auto md:w-[300px] rounded-[12px] shadow-md bg-white p-[25px]">
                 <div class="flex justify-between items-center">
                 <div class="w-[60px] h-[60px] rounded-[16px] bg-[#FFE3E2] flex items-center justify-center">
                     <img src="./assets/police.png" alt="" class="w-[32px] h-[32px]">
@@ -101,7 +105,7 @@
                 </div>
                 </div>
                 <div class="pt-[16px]">
-                    <p class="font-bold text-[16px] md:text-[16px]">
+                    <p class="hind-madurai-bold text-[16px] md:text-[16px] service">
                         Police Helpline Number
                     </p>
                     <p class="roboto-font text-[#5c5c5c] text-[13px] ">
@@ -109,18 +113,18 @@
                     </p>
                 </div>
                 <div class="pt-[24px]">
-                    <p class="font-bold text-[20px] md:text-[26px] number">
+                    <p class="roboto-font font-bold text-[20px] md:text-[26px] number">
                         999
                     </p>
                     <button class="btn rounded-2xl bg-[#f2f2f2]">Police</button>
                 </div>
                 <div class="pt-[24px] flex justify-between">
-                    <button class="btn h-[40px] w-[120px] border border-[rgba(212,214,213,1)] rounded-[8px] bg-white  text-[#5c5c5c] copy"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button class="btn h-[40px] w-[120px] border border-[rgba(212,214,213,1)] rounded-[8px] bg-white  text-[#5c5c5c] copy copy-text"><i class="fa-regular fa-copy"></i>Copy</button>
                     <button id="police-btn" class="btn bg-[#00a63e] h-[40px] w-[120px] rounded-[8px] call"><i class="fa-solid fa-phone "></i>Call</button>
                 </div>
                 </div>
                 <!-- fire -->
-                 <div class="h-[350px] w-auto md:w-[300px] rounded-[12px] shadow-md bg-white p-[25px]">
+                 <div class="card-container h-[350px] w-auto md:w-[300px] rounded-[12px] shadow-md bg-white p-[25px]">
                 <div class="flex justify-between items-center">
                 <div class="w-[60px] h-[60px] rounded-[16px] bg-[#FFE3E2] flex items-center justify-center">
                     <img src="./assets/fire-service.png" alt="" class="w-[32px] h-[32px]">
@@ -130,7 +134,7 @@
                 </div>
                 </div>
                 <div class="pt-[16px]">
-                    <p class="font-bold text-[16px] md:text-[16px]">
+                    <p class="hind-madurai-bold text-[16px] md:text-[16px] service">
                         Fire Service Number
                     </p>
                     <p class="roboto-font text-[#5c5c5c] text-[13px] ">
@@ -138,18 +142,18 @@
                     </p>
                 </div>
                 <div class="pt-[24px]">
-                    <p class="font-bold text-[20px] md:text-[26px] 999">
+                    <p class="roboto-font font-bold text-[20px] md:text-[26px] number">
                         999
                     </p>
-                    <button class="btn rounded-2xl bg-[#f2f2f2]">FIre</button>
+                    <button class="btn rounded-2xl bg-[#f2f2f2]">Fire</button>
                 </div>
                 <div class="pt-[24px] flex justify-between">
-                    <button class="btn h-[40px] w-[120px] border border-[rgba(212,214,213,1)] rounded-[8px] bg-white  text-[#5c5c5c] copy"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button class="btn h-[40px] w-[120px] border border-[rgba(212,214,213,1)] rounded-[8px] bg-white  text-[#5c5c5c] copy copy-text"><i class="fa-regular fa-copy"></i>Copy</button>
                     <button id="fire-btn" class="btn bg-[#00a63e] h-[40px] w-[120px] rounded-[8px] call"><i class="fa-solid fa-phone "></i>Call</button>
                 </div>
                 </div>
                 <!-- 4 -->
-                 <div class="h-[350px] w-auto md:w-[300px] rounded-[12px] shadow-md bg-white p-[25px]">
+                 <div class="card-container h-[350px] w-auto md:w-[300px] rounded-[12px] shadow-md bg-white p-[25px]">
                 <div class="flex justify-between items-center">
                 <div class="w-[60px] h-[60px] rounded-[16px] bg-[#FFE3E2] flex items-center justify-center">
                     <img src="./assets/ambulance.png" alt="" class="w-[32px] h-[32px]">
@@ -159,7 +163,7 @@
                 </div>
                 </div>
                 <div class="pt-[16px]">
-                    <p class="font-bold text-[16px] md:text-[16px]">
+                    <p class="hind-madurai-bold text-[16px] md:text-[16px] service">
                         Ambulance Service 
                     </p>
                     <p class="roboto-font text-[#5c5c5c] text-[13px] ">
@@ -167,18 +171,18 @@
                     </p>
                 </div>
                 <div class="pt-[24px]">
-                    <p class="font-bold text-[20px] md:text-[26px] number">
+                    <p class="roboto-font font-bold text-[20px] md:text-[26px] number">
                         01811111111
                     </p>
                     <button class="btn rounded-2xl bg-[#f2f2f2]">Health</button>
                 </div>
                 <div class="pt-[24px] flex justify-between">
-                    <button class="btn h-[40px] w-[120px] border border-[rgba(212,214,213,1)] rounded-[8px] bg-white  text-[#5c5c5c] copy"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button class="btn h-[40px] w-[120px] border border-[rgba(212,214,213,1)] rounded-[8px] bg-white  text-[#5c5c5c] copy copy-text"><i class="fa-regular fa-copy"></i>Copy</button>
                     <button id="ambulance-btn" class="btn bg-[#00a63e] h-[40px] w-[120px] rounded-[8px] call"><i class="fa-solid fa-phone "></i>Call</button>
                 </div>
                 </div>
                 <!-- 5 -->
-                 <div class="h-[350px] w-auto md:w-[300px] rounded-[12px] shadow-md bg-white p-[25px]">
+                 <div class="card-container h-[350px] w-auto md:w-[300px] rounded-[12px] shadow-md bg-white p-[25px]">
                 <div class="flex justify-between items-center">
                 <div class="w-[60px] h-[60px] rounded-[16px] bg-[#FFE3E2] flex items-center justify-center">
                     <img src="./assets/emergency.png" alt="" class="w-[32px] h-[32px]">
@@ -188,7 +192,7 @@
                 </div>
                 </div>
                 <div class="pt-[16px]">
-                    <p class="font-bold text-[16px] md:text-[16px]">
+                    <p class="hind-madurai-bold font-bold text-[16px] md:text-[16px] service">
                         Woman & Child Helpline
                     </p>
                     <p class="roboto-font text-[#5c5c5c] text-[13px] ">
@@ -196,18 +200,18 @@
                     </p>
                 </div>
                 <div class="pt-[24px]">
-                    <p class="font-bold text-[20px] md:text-[26px] number">
+                    <p class="roboto-font font-bold text-[20px] md:text-[26px] number">
                         109
                     </p>
                     <button class="btn rounded-2xl bg-[#f2f2f2]">Help</button>
                 </div>
                 <div class="pt-[24px] flex justify-between">
-                    <button class="btn h-[40px] w-[120px] border border-[rgba(212,214,213,1)] rounded-[8px] bg-white  text-[#5c5c5c] copy"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button class="btn h-[40px] w-[120px] border border-[rgba(212,214,213,1)] rounded-[8px] bg-white  text-[#5c5c5c] copy copy-text"><i class="fa-regular fa-copy"></i>Copy</button>
                     <button id="woman-btn" class="btn bg-[#00a63e] h-[40px] w-[120px] rounded-[8px] call"><i class="fa-solid fa-phone "></i>Call</button>
                 </div>
                 </div>
                 <!-- 6 -->
-                 <div class="h-[350px] w-auto md:w-[300px] rounded-[12px] shadow-md bg-white p-[25px]">
+                 <div class="card-container h-[350px] w-auto md:w-[300px] rounded-[12px] shadow-md bg-white p-[25px]">
                 <div class="flex justify-between items-center">
                 <div class="w-[60px] h-[60px] rounded-[16px] bg-[#FFE3E2] flex items-center justify-center">
                     <img src="./assets/emergency.png" alt="" class="w-[32px] h-[32px]">
@@ -217,7 +221,7 @@
                 </div>
                 </div>
                 <div class="pt-[16px]">
-                    <p class="font-bold text-[16px] md:text-[16px]">
+                    <p class="hind-madurai-bold text-[16px] md:text-[16px] service">
                        Anti-Corruption Helpline
                     </p>
                     <p class="roboto-font text-[#5c5c5c] text-[13px] ">
@@ -225,18 +229,18 @@
                     </p>
                 </div>
                 <div class="pt-[24px]">
-                    <p class="font-bold text-[20px] md:text-[26px] number">
+                    <p class="roboto-font font-bold text-[20px] md:text-[26px] number">
                         106
                     </p>
                     <button class="btn rounded-2xl bg-[#f2f2f2]">Govt.</button>
                 </div>
                 <div class="pt-[24px] flex justify-between">
-                    <button class="btn h-[40px] w-[120px] border border-[rgba(212,214,213,1)] rounded-[8px] bg-white  text-[#5c5c5c] copy"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button class="btn h-[40px] w-[120px] border border-[rgba(212,214,213,1)] rounded-[8px] bg-white  text-[#5c5c5c] copy copy-text"><i class="fa-regular fa-copy"></i>Copy</button>
                     <button id="corrupt-btn" class="btn bg-[#00a63e] h-[40px] w-[120px] rounded-[8px] call"><i class="fa-solid fa-phone "></i>Call</button>
                 </div>
                 </div>
                 <!-- 7 -->
-                 <div class="h-[350px] w-auto md:w-[300px] rounded-[12px] shadow-md bg-white p-[25px]">
+                 <div class=" card-container h-[350px] w-auto md:w-[300px] rounded-[12px] shadow-md bg-white p-[25px]">
                 <div class="flex justify-between items-center">
                 <div class="w-[60px] h-[60px] rounded-[16px] bg-[#FFE3E2] flex items-center justify-center">
                     <img src="./assets/emergency.png" alt="" class="w-[32px] h-[32px]">
@@ -246,7 +250,7 @@
                 </div>
                 </div>
                 <div class="pt-[16px]">
-                    <p class="font-bold text-[16px] md:text-[16px]">
+                    <p class="hind-madurai-bold text-[16px] md:text-[16px] service">
                         Electricity Helpline
                     </p>
                     <p class="roboto-font text-[#5c5c5c] text-[13px] ">
@@ -254,18 +258,18 @@
                     </p>
                 </div>
                 <div class="pt-[24px]">
-                    <p class="font-bold text-[20px] md:text-[26px] number">
+                    <p class="roboto-font font-bold text-[20px] md:text-[26px] number">
                         16216
                     </p>
                     <button class="btn rounded-2xl bg-[#f2f2f2]">Electricity</button>
                 </div>
                 <div class="pt-[24px] flex justify-between">
-                    <button class="btn h-[40px] w-[120px] border border-[rgba(212,214,213,1)] rounded-[8px] bg-white  text-[#5c5c5c] copy"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button class="btn h-[40px] w-[120px] border border-[rgba(212,214,213,1)] rounded-[8px] bg-white  text-[#5c5c5c] copy copy-text"><i class="fa-regular fa-copy"></i>Copy</button>
                     <button id="electricity-btn" class="btn bg-[#00a63e] h-[40px] w-[120px] rounded-[8px] call"><i class="fa-solid fa-phone "></i>Call</button>
                 </div>
                 </div>
                 <!-- 8 -->
-                 <div class="h-[350px] w-auto md:w-[300px] rounded-[12px] shadow-md bg-white p-[25px]">
+                 <div class="card-container h-[350px] w-auto md:w-[300px] rounded-[12px] shadow-md bg-white p-[25px]">
                 <div class="flex justify-between items-center">
                 <div class="w-[60px] h-[60px] rounded-[16px] bg-[#FFE3E2] flex items-center justify-center">
                     <img src="./assets/brac.png" alt="" class="w-[32px] h-[32px]">
@@ -275,7 +279,7 @@
                 </div>
                 </div>
                 <div class="pt-[16px]">
-                    <p class="font-bold text-[16px] md:text-[16px]">
+                    <p class="hind-madurai-bold text-[16px] md:text-[16px] service">
                         Brac Helpline
                     </p>
                     <p class="roboto-font text-[#5c5c5c] text-[13px] ">
@@ -283,18 +287,18 @@
                     </p>
                 </div>
                 <div class="pt-[24px]">
-                    <p class="font-bold text-[20px] md:text-[26px] number">
+                    <p class=" roboto-font font-bold text-[20px] md:text-[26px] number">
                         16445
                     </p>
                     <button class="btn rounded-2xl bg-[#f2f2f2]">NGO</button>
                 </div>
                 <div class="pt-[24px] flex justify-between">
-                    <button class="btn h-[40px] w-[120px] border border-[rgba(212,214,213,1)] rounded-[8px] bg-white  text-[#5c5c5c] copy"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button class="btn h-[40px] w-[120px] border border-[rgba(212,214,213,1)] rounded-[8px] bg-white  text-[#5c5c5c] copy copy-text"><i class="fa-regular fa-copy"></i>Copy</button>
                     <button id="brac-btn" class="btn bg-[#00a63e] h-[40px] w-[120px] rounded-[8px] call"><i class="fa-solid fa-phone "></i>Call</button>
                 </div>
                 </div>
                 <!-- 9 -->
-                 <div class="h-[350px] w-auto md:w-[300px] rounded-[12px] shadow-md bg-white p-[25px]">
+                 <div class=" card-container h-[350px] w-auto md:w-[300px] rounded-[12px] shadow-md bg-white p-[25px]">
                 <div class="flex justify-between items-center">
                 <div class="w-[60px] h-[60px] rounded-[16px] bg-[#FFE3E2] flex items-center justify-center">
                     <img src="./assets/Bangladesh-Railway.png" alt="" class="w-[32px] h-[32px]">
@@ -304,7 +308,7 @@
                 </div>
                 </div>
                 <div class="pt-[16px]">
-                    <p class="font-bold text-[16px] md:text-[16px]">
+                    <p class="hind-madurai-bold text-[16px] md:text-[16px] service">
                         Bangladesh Railway Helpline
                     </p>
                     <p class="roboto-font text-[#5c5c5c] text-[13px] ">
@@ -312,13 +316,13 @@
                     </p>
                 </div>
                 <div class="pt-[24px]">
-                    <p class="font-bold text-[20px] md:text-[26px] number">
+                    <p class="roboto-font font-bold text-[20px] md:text-[26px] number">
                         163
                     </p>
                     <button class="btn rounded-2xl bg-[#f2f2f2]">Travel</button>
                 </div>
                 <div class="pt-[24px] flex justify-between">
-                    <button class="btn h-[40px] w-[120px] border border-[rgba(212,214,213,1)] rounded-[8px] bg-white  text-[#5c5c5c] copy"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button class="btn h-[40px] w-[120px] border border-[rgba(212,214,213,1)] rounded-[8px] bg-white  text-[#5c5c5c] copy copy-text"><i class="fa-regular fa-copy"></i>Copy</button>
                     <button id="railway-btn" class="btn bg-[#00a63e] h-[40px] w-[120px] rounded-[8px] call"><i class="fa-solid fa-phone "></i>Call</button>
                 </div>
                 </div>
@@ -344,6 +348,8 @@
 
 
          <script src="script.js"></script>
+         
+
 </body>
 
 </html>
